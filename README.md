@@ -17,7 +17,7 @@ Change "Tracking Type" in order to send a goal instead of "base tracking" with t
 This section contains additional options that allows enhanced data redaction. You can optionally send an empty referrer and delete any parameters from tracked urls. 
 
 #### Changing Page Path
-If you want to collect data from several sources in different paths of the same profile, you can override the page path with a different value. This option also can be used for further data redaction or enrichment - as well as the option to delete all parameters from the path before sending data to Umami.
+If you want to collect data from several sources in different paths of the same profile, you can override the page path with a different value. This option also can be used for further data redaction or enrichment - as well as the option to delete all parameters from the path before sending data to Trackboxx.
 
 #### Track Downloads
 If you want to add all downloads (incoming *file_download* events) to your link tracking reports, check the last option. 
