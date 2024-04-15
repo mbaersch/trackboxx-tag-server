@@ -1,0 +1,6 @@
+homepage: "https://www.markus-baersch.de"
+documentation: "https://github.com/mbaersch/trackboxx-tag-server#readme"
+versions:
+  # Latest version
+  - sha: 
+    changeNotes: Initial release.
