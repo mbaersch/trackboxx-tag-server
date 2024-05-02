@@ -272,7 +272,7 @@ const stpLog = function(tp, en, prms) {
     } else {
         ob.ResponseStatusCode = prms.statusCode;
         ob.ResponseHeaders = prms.headers;
-        ob.ResponseBody = prms.body;
+        //ob.ResponseBody = prms.body;
     }
     logToConsole(JSON.stringify(ob));
   }
@@ -368,7 +368,7 @@ if (data.trackType === "conversion") {
       });
     }
     
-    stpLog('Request', name, {method: 'GET'});
+    stpLog('Request', name, {method: 'POST'});
     sendToService('POST');
   }
 
